@@ -82,7 +82,7 @@ export const AppsView: React.FC<AppsViewProps> = ({ activeTheme }) => {
   };
 
   // Code Sandbox state
-  const [codeSnippet, setCodeSnippet] = useState('console.log("Hello from OwenWatermelonV3 OS!");\n\nfor (let i = 1; i <= 5; i++) {\n  console.log("Melon counter:", i * 10);\n}');
+  const [codeSnippet, setCodeSnippet] = useState('console.log("Hello from opgames44 OS!");\n\nfor (let i = 1; i <= 5; i++) {\n  console.log("Melon counter:", i * 10);\n}');
   const [codeOutput, setCodeOutput] = useState('');
 
   const runCode = () => {
@@ -118,14 +118,14 @@ export const AppsView: React.FC<AppsViewProps> = ({ activeTheme }) => {
               }}
             >
               <LayoutGrid className="w-3.5 h-3.5" />
-              OwenWatermelon Utility Apps
+              opgames44 Utility Apps
             </span>
           </div>
           <h1 className="text-3xl font-extrabold text-white tracking-tight">
             Integrated Workspace Tools
           </h1>
           <p className="text-sm text-slate-400">
-            Convenient utilities built directly into the OwenWatermelon browser shell for schoolwork, study timers, and quick scratch notes.
+            Convenient utilities built directly into the opgames44 browser shell for schoolwork, study timers, and quick scratch notes.
           </p>
         </div>
 

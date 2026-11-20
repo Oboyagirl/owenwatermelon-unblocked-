@@ -6,9 +6,9 @@ const CREATOR_MODE_KEY = 'owen_creator_mode_active';
 const SITE_SETTINGS_KEY = 'owen_watermelon_site_settings_v1';
 
 export const DEFAULT_SITE_SETTINGS: SiteSettings = {
-  siteTitle: 'Owen Watermelon V3',
+  siteTitle: 'opgames44',
   siteSubtitle: 'Unblocked games, retro hits, and tab cloaker.',
-  announcementText: '🍉 Welcome to Owen Watermelon V3! Try the new Theme Gallery to switch between Nebula, Sky, and 10+ more styles.',
+  announcementText: '🍉 Welcome to opgames44! Try the new Theme Gallery to switch between Nebula, Sky, and 10+ more styles.',
   announcementActive: true,
   announcementType: 'info',
   starSpeed: 1,
@@ -21,7 +21,14 @@ export function getStoredSiteSettings(): SiteSettings {
   try {
     const raw = localStorage.getItem(SITE_SETTINGS_KEY);
     if (raw) {
-      return { ...DEFAULT_SITE_SETTINGS, ...JSON.parse(raw) };
+      const merged = { ...DEFAULT_SITE_SETTINGS, ...JSON.parse(raw) };
+      if (typeof merged.siteTitle === 'string' && /owen\s*watermelon/i.test(merged.siteTitle)) {
+        merged.siteTitle = DEFAULT_SITE_SETTINGS.siteTitle;
+      }
+      if (typeof merged.announcementText === 'string' && /owen\s*watermelon/i.test(merged.announcementText)) {
+        merged.announcementText = DEFAULT_SITE_SETTINGS.announcementText;
+      }
+      return merged;
     }
   } catch (e) {
     console.error('Failed to load site settings', e);

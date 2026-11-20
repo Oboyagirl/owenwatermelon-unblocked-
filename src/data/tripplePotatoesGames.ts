@@ -7,7 +7,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Subway Surfers",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Subway Surfers unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Subway Surfers unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "tags": [
@@ -44,7 +44,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Subway Surfers: Havana",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Subway Surfers: Havana unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Subway Surfers: Havana unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "tags": [
@@ -81,7 +81,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Subway Surfers: Hong Kong",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Subway Surfers: Hong Kong unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Subway Surfers: Hong Kong unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "tags": [
@@ -118,7 +118,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Subway Surfers: Iceland",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Subway Surfers: Iceland unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Subway Surfers: Iceland unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Subway-Surfers/Subway-Surfers.png",
     "tags": [
@@ -155,7 +155,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Moto X3M",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Moto X3M unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Moto X3M unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Moto3XM/moto3xm.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Moto3XM/moto3xm.jpg",
     "tags": [
@@ -193,7 +193,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Retro Bowl",
     "category": "Sports",
     "secondaryCategory": "2-Player Battle",
-    "description": "Play Retro Bowl unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Retro Bowl unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Retro-Bowl/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Retro-Bowl/thumb.png",
     "tags": [
@@ -231,7 +231,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Crossy Road",
     "category": "Arcade",
     "secondaryCategory": "Mobile Hits",
-    "description": "Play Crossy Road unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Crossy Road unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Crossy-Road/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Crossy-Road/thumb.png",
     "tags": [
@@ -268,7 +268,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Geometry Dash",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Geometry Dash unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Geometry Dash unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Geometry-Dash/geometrydash.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Geometry-Dash/geometrydash.png",
     "tags": [
@@ -305,7 +305,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Geometry Dash: SUB ZERO",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Geometry Dash: SUB ZERO unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Geometry Dash: SUB ZERO unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Geometry-Dash/geometrydash.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Geometry-Dash/geometrydash.png",
     "tags": [
@@ -342,7 +342,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Geometry Dash: Meltdown",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Geometry Dash: Meltdown unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Geometry Dash: Meltdown unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Geometry-Dash-Lite/Geometry-Dash-Lite.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Geometry-Dash-Lite/Geometry-Dash-Lite.png",
     "tags": [
@@ -379,7 +379,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Clash",
     "category": "Arcade",
     "secondaryCategory": "Mobile Hits",
-    "description": "Play Clash unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Clash unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Clash-Of-Vikings/Clash-Of-Vikings.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Clash-Of-Vikings/Clash-Of-Vikings.png",
     "tags": [
@@ -417,7 +417,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Flappy Bird",
     "category": "Arcade",
     "secondaryCategory": "Mobile Hits",
-    "description": "Play Flappy Bird unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Flappy Bird unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Flappy-Bird/Flappy-Bird.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Flappy-Bird/Flappy-Bird.png",
     "tags": [
@@ -455,7 +455,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Super Mario Run",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Super Mario Run unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Super Mario Run unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Super-Mario-63/Super-Mario-63.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Super-Mario-63/Super-Mario-63.png",
     "tags": [
@@ -493,7 +493,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Stumble Guys",
     "category": "Arcade",
     "secondaryCategory": "Mobile Hits",
-    "description": "Play Stumble Guys unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Stumble Guys unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stumble-Guys/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stumble-Guys/thumb.png",
     "tags": [
@@ -531,7 +531,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tower Builder",
     "category": "Arcade",
     "secondaryCategory": "Mobile Hits",
-    "description": "Play Tower Builder unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tower Builder unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tower-Builder/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tower-Builder/thumb.png",
     "tags": [
@@ -569,7 +569,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Idle Miners Tycoon",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play Idle Miners Tycoon unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Idle Miners Tycoon unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Idle-Miners-Tycoon/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Idle-Miners-Tycoon/thumb.png",
     "tags": [
@@ -607,7 +607,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "The Impossible Quiz",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play The Impossible Quiz unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play The Impossible Quiz unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/The-Impossible-Quiz-2/impossiblequiz2.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/The-Impossible-Quiz-2/impossiblequiz2.png",
     "tags": [
@@ -645,7 +645,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Dune!",
     "category": "Arcade",
     "secondaryCategory": "Mobile Hits",
-    "description": "Play Dune! unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Dune! unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Dune-/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Dune-/thumb.png",
     "tags": [
@@ -683,7 +683,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Do Not Open (horror game)",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Do Not Open (horror game) unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Do Not Open (horror game) unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Do-Not-Open--horror-game-/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Do-Not-Open--horror-game-/thumb.png",
     "tags": [
@@ -721,7 +721,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Poppy Playtime",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Poppy Playtime unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Poppy Playtime unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Poppy-Playtime/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Poppy-Playtime/thumb.png",
     "tags": [
@@ -759,7 +759,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Backrooms",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Backrooms unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Backrooms unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Backrooms/Backrooms.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Backrooms/Backrooms.png",
     "tags": [
@@ -797,7 +797,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Five Nights at Winstons",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Five Nights at Winstons unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Five Nights at Winstons unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Five-Nights-at-Winstons/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Five-Nights-at-Winstons/thumb.png",
     "tags": [
@@ -835,7 +835,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "FNAF Browser",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play FNAF Browser unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play FNAF Browser unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/FNAF-1/FNAF-1.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/FNAF-1/FNAF-1.png",
     "tags": [
@@ -873,7 +873,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Behind The Scenes (Backrooms)",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Behind The Scenes (Backrooms) unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Behind The Scenes (Backrooms) unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Backrooms/Backrooms.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Backrooms/Backrooms.png",
     "tags": [
@@ -911,7 +911,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Huggy Wuggy Horror",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Huggy Wuggy Horror unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Huggy Wuggy Horror unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Huggy-Wuggy-Horror/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Huggy-Wuggy-Horror/thumb.png",
     "tags": [
@@ -949,7 +949,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "IO games",
     "category": "Multiplayer",
     "secondaryCategory": "Online Battle",
-    "description": "Play IO games unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play IO games unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/IO-games/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/IO-games/thumb.png",
     "tags": [
@@ -987,7 +987,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Agar.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Agar.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Agar.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Agar-io/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Agar-io/thumb.png",
     "tags": [
@@ -1025,7 +1025,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tanks.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Tanks.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tanks.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Clash-Of-Tanks/clashoftanks.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Clash-Of-Tanks/clashoftanks.png",
     "tags": [
@@ -1063,7 +1063,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "slither.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play slither.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play slither.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/slitherio/slitherio.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/slitherio/slitherio.png",
     "tags": [
@@ -1101,7 +1101,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Paper.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Paper.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Paper.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Paper-IO-2/paperio2.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Paper-IO-2/paperio2.png",
     "tags": [
@@ -1138,7 +1138,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Shell Shockers.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Shell Shockers.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Shell Shockers.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Shell-Shockers/Shell-Shockers.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Shell-Shockers/Shell-Shockers.png",
     "tags": [
@@ -1176,7 +1176,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Gartic.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Gartic.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Gartic.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Gartic-io/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Gartic-io/thumb.png",
     "tags": [
@@ -1214,7 +1214,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Hole.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Hole.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Hole.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/hole-io.jpg",
     "banner": "thumbnails/hole-io.jpg",
     "tags": [
@@ -1252,7 +1252,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Paper.io 3D",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Paper.io 3D unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Paper.io 3D unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Paper-IO-2/paperio2.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Paper-IO-2/paperio2.png",
     "tags": [
@@ -1289,7 +1289,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "FlipHero.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play FlipHero.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play FlipHero.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/FlipHero-io/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/FlipHero-io/thumb.png",
     "tags": [
@@ -1327,7 +1327,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Eat.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Eat.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Eat.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Eat-io/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Eat-io/thumb.png",
     "tags": [
@@ -1365,7 +1365,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Aquapark.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Aquapark.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Aquapark.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Aquapark-io/Aquapark-io.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Aquapark-io/Aquapark-io.jpg",
     "tags": [
@@ -1403,7 +1403,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Biters.io",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Biters.io unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Biters.io unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Biters-io/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Biters-io/thumb.png",
     "tags": [
@@ -1441,7 +1441,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Just fall.lol",
     "category": "Multiplayer",
     "secondaryCategory": "Online Battle",
-    "description": "Play Just fall.lol unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Just fall.lol unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/1v1-LOL/1v1-LOL.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/1v1-LOL/1v1-LOL.png",
     "tags": [
@@ -1479,7 +1479,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "1v1.lol",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play 1v1.lol unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play 1v1.lol unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/1v1-lol/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/1v1-lol/thumb.png",
     "tags": [
@@ -1516,7 +1516,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Fall Boys",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Fall Boys unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Fall Boys unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Fall-Boys/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Fall-Boys/thumb.png",
     "tags": [
@@ -1554,7 +1554,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Rooftop Sniper 2",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Rooftop Sniper 2 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Rooftop Sniper 2 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Rooftop-Snipers/rooftopsnipers.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Rooftop-Snipers/rooftopsnipers.png",
     "tags": [
@@ -1591,7 +1591,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Rag Doll Games (Boxing)",
     "category": "Multiplayer",
     "secondaryCategory": "Online Battle",
-    "description": "Play Rag Doll Games (Boxing) unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Rag Doll Games (Boxing) unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Boxing-Random/Boxing-Random.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Boxing-Random/Boxing-Random.png",
     "tags": [
@@ -1629,7 +1629,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Squid Game 2",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Squid Game 2 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Squid Game 2 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Squid-Game-2/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Squid-Game-2/thumb.png",
     "tags": [
@@ -1667,7 +1667,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Stick Slashers",
     "category": "Multiplayer",
     "secondaryCategory": "Online Battle",
-    "description": "Play Stick Slashers unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Stick Slashers unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stick-Slashers/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stick-Slashers/thumb.png",
     "tags": [
@@ -1705,7 +1705,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Zombs Royale",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Zombs Royale unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Zombs Royale unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/zombs-royale.jpg",
     "banner": "thumbnails/zombs-royale.jpg",
     "tags": [
@@ -1743,7 +1743,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Basket Bros.",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Basket Bros. unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Basket Bros. unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Basket-Bros/Basket-Bros.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Basket-Bros/Basket-Bros.png",
     "tags": [
@@ -1781,7 +1781,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tiny Castle",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Tiny Castle unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tiny Castle unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tiny-Castle/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tiny-Castle/thumb.png",
     "tags": [
@@ -1819,7 +1819,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "EaglerCraft",
     "category": "Sandbox",
     "secondaryCategory": "Open World",
-    "description": "Play EaglerCraft unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play EaglerCraft unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Eaglercraft/eaglercraft.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Eaglercraft/eaglercraft.jpg",
     "tags": [
@@ -1856,7 +1856,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Friday Night Funkin vs Miku",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Friday Night Funkin vs Miku unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Friday Night Funkin vs Miku unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Friday-Night-Funkin/Friday-Night-Funkin.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Friday-Night-Funkin/Friday-Night-Funkin.png",
     "tags": [
@@ -1893,7 +1893,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Cookie Clicker",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play Cookie Clicker unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Cookie Clicker unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cookie-Clicker/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cookie-Clicker/thumb.png",
     "tags": [
@@ -1930,7 +1930,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Cookie Clicker (Scratch)",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play Cookie Clicker (Scratch) unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Cookie Clicker (Scratch) unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cookie-Clicker/cookieclicker.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cookie-Clicker/cookieclicker.jpg",
     "tags": [
@@ -1967,7 +1967,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Bob against the WORLD!",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Bob against the WORLD! unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Bob against the WORLD! unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Bob-against-the-WORLD-/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Bob-against-the-WORLD-/thumb.png",
     "tags": [
@@ -2005,7 +2005,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tanks VS Zombies",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Tanks VS Zombies unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tanks VS Zombies unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tanks-VS-Zombies/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tanks-VS-Zombies/thumb.png",
     "tags": [
@@ -2043,7 +2043,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "3 Little Heroes",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play 3 Little Heroes unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play 3 Little Heroes unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/3-Little-Heroes/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/3-Little-Heroes/thumb.png",
     "tags": [
@@ -2081,7 +2081,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Run 3",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Run 3 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Run 3 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Run-3/run3.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Run-3/run3.jpg",
     "tags": [
@@ -2118,7 +2118,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Getting over it",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Getting over it unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Getting over it unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Getting-Over-It/Getting-Over-It.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Getting-Over-It/Getting-Over-It.png",
     "tags": [
@@ -2157,7 +2157,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Among Us",
     "category": "Multiplayer",
     "secondaryCategory": "Arena IO",
-    "description": "Play Among Us unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Among Us unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Among-Us/among-us.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Among-Us/among-us.jpg",
     "tags": [
@@ -2194,7 +2194,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Space bar clicker",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play Space bar clicker unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Space bar clicker unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Dogeminer/Dogeminer.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Dogeminer/Dogeminer.png",
     "tags": [
@@ -2232,7 +2232,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tanuki Sunset",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Tanuki Sunset unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tanuki Sunset unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tanuki-Sunset/tanukisunset.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tanuki-Sunset/tanukisunset.jpg",
     "tags": [
@@ -2269,7 +2269,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Cluster Rush",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Cluster Rush unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Cluster Rush unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cluster-Rush/Cluster-Rush.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cluster-Rush/Cluster-Rush.png",
     "tags": [
@@ -2306,7 +2306,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Stickman Climb 2",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Stickman Climb 2 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Stickman Climb 2 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stickman-Climb/Stickman-Climb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stickman-Climb/Stickman-Climb.png",
     "tags": [
@@ -2344,7 +2344,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Drive Mad",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Drive Mad unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Drive Mad unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Drive-Mad/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Drive-Mad/thumb.png",
     "tags": [
@@ -2381,7 +2381,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Slope",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Slope unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Slope unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Slope/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Slope/thumb.png",
     "tags": [
@@ -2418,7 +2418,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Slope Alt",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Slope Alt unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Slope Alt unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Slope-Plus/Slope-Plus.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Slope-Plus/Slope-Plus.png",
     "tags": [
@@ -2455,7 +2455,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Drift Hunters",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Drift Hunters unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Drift Hunters unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Drift-Hunters/Drift-Hunters.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Drift-Hunters/Drift-Hunters.png",
     "tags": [
@@ -2492,7 +2492,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Burning Rubber 5 XS",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Burning Rubber 5 XS unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Burning Rubber 5 XS unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Burning-Rubber-5-XS/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Burning-Rubber-5-XS/thumb.png",
     "tags": [
@@ -2530,7 +2530,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "CraftMine",
     "category": "Sandbox",
     "secondaryCategory": "Open World",
-    "description": "Play CraftMine unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play CraftMine unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/CraftMine/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/CraftMine/thumb.png",
     "tags": [
@@ -2568,7 +2568,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Death Run",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Death Run unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Death Run unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Death-Run-3D/Death-Run-3D.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Death-Run-3D/Death-Run-3D.png",
     "tags": [
@@ -2606,7 +2606,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Baldi&#39;s Basics",
     "category": "Horror",
     "secondaryCategory": "Survival Horror",
-    "description": "Play Baldi&#39;s Basics unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Baldi&#39;s Basics unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/BALDI/BALDI.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/BALDI/BALDI.png",
     "tags": [
@@ -2644,7 +2644,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Pixel Craft",
     "category": "Sandbox",
     "secondaryCategory": "Open World",
-    "description": "Play Pixel Craft unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Pixel Craft unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Pixel-Craft/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Pixel-Craft/thumb.png",
     "tags": [
@@ -2682,7 +2682,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Fifa (2002)",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Fifa (2002) unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Fifa (2002) unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Head-Soccer/Head-Soccer.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Head-Soccer/Head-Soccer.png",
     "tags": [
@@ -2720,7 +2720,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "GTA for Browser",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play GTA for Browser unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play GTA for Browser unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/gta-classic.jpg",
     "banner": "thumbnails/gta-classic.jpg",
     "tags": [
@@ -2758,7 +2758,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Brawl Stars",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Brawl Stars unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Brawl Stars unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Brawl-Stars/Brawl-Stars.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Brawl-Stars/Brawl-Stars.png",
     "tags": [
@@ -2796,7 +2796,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Time Shooter",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Time Shooter unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Time Shooter unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Time-Shooter/Time-Shooter.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Time-Shooter/Time-Shooter.png",
     "tags": [
@@ -2833,7 +2833,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Dino Run 3",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Dino Run 3 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Dino Run 3 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Dino-Run-3/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Dino-Run-3/thumb.png",
     "tags": [
@@ -2871,7 +2871,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Browser Doom",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Browser Doom unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Browser Doom unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Doom/doom.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Doom/doom.jpg",
     "tags": [
@@ -2909,7 +2909,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Marble Run",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Marble Run unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Marble Run unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/marble-run.jpg",
     "banner": "thumbnails/marble-run.jpg",
     "tags": [
@@ -2947,7 +2947,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Cube Craft Survival",
     "category": "Sandbox",
     "secondaryCategory": "Open World",
-    "description": "Play Cube Craft Survival unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Cube Craft Survival unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cube-Craft-Survival/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cube-Craft-Survival/thumb.png",
     "tags": [
@@ -2985,7 +2985,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Elastic Morty",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Elastic Morty unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Elastic Morty unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Elastic-Morty/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Elastic-Morty/thumb.png",
     "tags": [
@@ -3023,7 +3023,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tunnel rush",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Tunnel rush unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tunnel rush unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tunnel-Rush/Tunnel-Rush.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tunnel-Rush/Tunnel-Rush.png",
     "tags": [
@@ -3060,7 +3060,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Shards",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Shards unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Shards unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Shards/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Shards/thumb.png",
     "tags": [
@@ -3098,7 +3098,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Time Shooter 2",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Time Shooter 2 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Time Shooter 2 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Time-Shooter-2/timeshooter2.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Time-Shooter-2/timeshooter2.png",
     "tags": [
@@ -3135,7 +3135,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Color Road",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Color Road unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Color Road unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Color-Road/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Color-Road/thumb.png",
     "tags": [
@@ -3173,7 +3173,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Hover Racer Drive",
     "category": "Racing",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Hover Racer Drive unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Hover Racer Drive unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Power-Hover/Power-Hover.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Power-Hover/Power-Hover.png",
     "tags": [
@@ -3211,7 +3211,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Draw Climber",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Draw Climber unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Draw Climber unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Draw-the-Hill/Draw-the-Hill.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Draw-the-Hill/Draw-the-Hill.png",
     "tags": [
@@ -3249,7 +3249,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Spiral Roll",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Spiral Roll unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Spiral Roll unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Spiral-Roll/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Spiral-Roll/thumb.png",
     "tags": [
@@ -3287,7 +3287,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Gangsters",
     "category": "Action",
     "secondaryCategory": "3D Unblocked",
-    "description": "Play Gangsters unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Gangsters unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Gangsters/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Gangsters/thumb.png",
     "tags": [
@@ -3325,7 +3325,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Mine Shooter",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Mine Shooter unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Mine Shooter unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Mine-Shooter/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Mine-Shooter/thumb.png",
     "tags": [
@@ -3363,7 +3363,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "HTML5/2D games",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play HTML5/2D games unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play HTML5/2D games unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/HTML5-2D-games/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/HTML5-2D-games/thumb.png",
     "tags": [
@@ -3401,7 +3401,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Dumb Ways To Die",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Dumb Ways To Die unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Dumb Ways To Die unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/dumb-ways-to-die.jpg",
     "banner": "thumbnails/dumb-ways-to-die.jpg",
     "tags": [
@@ -3439,7 +3439,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Bakeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Bakeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Bakeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Bakes/papasbakeria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Bakes/papasbakeria.jpg",
     "tags": [
@@ -3477,7 +3477,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Burgeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Burgeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Burgeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Burg/papas-burgeria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Burg/papas-burgeria.jpg",
     "tags": [
@@ -3515,7 +3515,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Cheeseria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Cheeseria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Cheeseria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Cheese/papascheeseria.jpeg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Cheese/papascheeseria.jpeg",
     "tags": [
@@ -3553,7 +3553,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Cupcakeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Cupcakeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Cupcakeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Cpck/papascupcakeria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Cpck/papascupcakeria.jpg",
     "tags": [
@@ -3591,7 +3591,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Donuteria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Donuteria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Donuteria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Donut/papasdonuteria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Donut/papasdonuteria.jpg",
     "tags": [
@@ -3629,7 +3629,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Freezeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Freezeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Freezeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/papas-freezeria.jpg",
     "banner": "thumbnails/papas-freezeria.jpg",
     "tags": [
@@ -3667,7 +3667,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Hot Doggeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Hot Doggeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Hot Doggeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Htdog/papashotdoggeria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Htdog/papashotdoggeria.jpg",
     "tags": [
@@ -3705,7 +3705,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Pancakeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Pancakeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Pancakeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-PnCk/papa-pnck.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-PnCk/papa-pnck.png",
     "tags": [
@@ -3743,7 +3743,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Pastaria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Pastaria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Pastaria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Pasta/papaspasteria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Pasta/papaspasteria.jpg",
     "tags": [
@@ -3781,7 +3781,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Pizzeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Pizzeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Pizzeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Pizzeria/papaspizzeria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Pizzeria/papaspizzeria.jpg",
     "tags": [
@@ -3819,7 +3819,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Scooperia",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Scooperia unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Scooperia unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Scoop-Alt/papasscooperia.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-Scoop-Alt/papasscooperia.png",
     "tags": [
@@ -3857,7 +3857,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Sushiria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Sushiria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Sushiria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Sushi/papassushiria.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papas-Sushi/papassushiria.jpg",
     "tags": [
@@ -3895,7 +3895,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa&#39;s Taco Mia",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa&#39;s Taco Mia unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa&#39;s Taco Mia unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/papas-freezeria.jpg",
     "banner": "thumbnails/papas-freezeria.jpg",
     "tags": [
@@ -3933,7 +3933,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Papa’s Bakeria",
     "category": "Casual",
     "secondaryCategory": "Cooking Sim",
-    "description": "Play Papa’s Bakeria unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Papa’s Bakeria unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-s-Bakeria/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papa-s-Bakeria/thumb.png",
     "tags": [
@@ -3971,7 +3971,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Vex",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Vex unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Vex unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-1/Vex-1.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-1/Vex-1.png",
     "tags": [
@@ -4008,7 +4008,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Vex 3",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Vex 3 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Vex 3 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-3/Vex-3.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-3/Vex-3.png",
     "tags": [
@@ -4045,7 +4045,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Vex 4",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Vex 4 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Vex 4 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-4/Vex-4.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-4/Vex-4.png",
     "tags": [
@@ -4082,7 +4082,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Vex 5",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Vex 5 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Vex 5 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-5/Vex-5.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-5/Vex-5.png",
     "tags": [
@@ -4119,7 +4119,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Vex 6",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play Vex 6 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Vex 6 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-6/Vex-6.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Vex-6/Vex-6.png",
     "tags": [
@@ -4156,7 +4156,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Soccer Skils",
     "category": "Sports",
     "secondaryCategory": "2-Player Battle",
-    "description": "Play Soccer Skils unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Soccer Skils unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Soccer-Bros/soccer-bros.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Soccer-Bros/soccer-bros.jpg",
     "tags": [
@@ -4194,7 +4194,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Stick War Infinity Duel",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Stick War Infinity Duel unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Stick War Infinity Duel unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stickman-Duel/Stickman-Duel.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Stickman-Duel/Stickman-Duel.png",
     "tags": [
@@ -4231,7 +4231,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Apple shooter",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Apple shooter unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Apple shooter unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/apple-shooter.jpg",
     "banner": "thumbnails/apple-shooter.jpg",
     "tags": [
@@ -4269,7 +4269,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Cycle Extreme",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Cycle Extreme unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Cycle Extreme unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cycle-Extreme/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Cycle-Extreme/thumb.png",
     "tags": [
@@ -4307,7 +4307,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "knife hit",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play knife hit unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play knife hit unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/knife-hit/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/knife-hit/thumb.png",
     "tags": [
@@ -4345,7 +4345,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Mr. Fight",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Mr. Fight unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Mr. Fight unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Mr--Fight/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Mr--Fight/thumb.png",
     "tags": [
@@ -4383,7 +4383,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Zombie Killer",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Zombie Killer unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Zombie Killer unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Zombie-Killer/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Zombie-Killer/thumb.png",
     "tags": [
@@ -4421,7 +4421,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Room Clicker",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play Room Clicker unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Room Clicker unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Steal-A-Brainrot/Steal-A-Brainrot.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Steal-A-Brainrot/Steal-A-Brainrot.jpg",
     "tags": [
@@ -4459,7 +4459,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "BitLife",
     "category": "Casual",
     "secondaryCategory": "Idle & Sim",
-    "description": "Play BitLife unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play BitLife unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/7zeb/homework@main/bit-life/splash.png",
     "banner": "https://cdn.jsdelivr.net/gh/7zeb/homework@main/bit-life/splash.png",
     "tags": [
@@ -4496,7 +4496,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Mario",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Mario unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Mario unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Jumbo-Mario/Jumbo-Mario.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Jumbo-Mario/Jumbo-Mario.png",
     "tags": [
@@ -4534,7 +4534,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Pool Ball",
     "category": "Sports",
     "secondaryCategory": "2-Player Battle",
-    "description": "Play Pool Ball unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Pool Ball unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/8-Ball-Billiards-Classic/8-Ball-Billiards-Classic.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/8-Ball-Billiards-Classic/8-Ball-Billiards-Classic.png",
     "tags": [
@@ -4572,7 +4572,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Ultimate Bro Workout",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Ultimate Bro Workout unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Ultimate Bro Workout unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Ultimate-Bro-Workout/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Ultimate-Bro-Workout/thumb.png",
     "tags": [
@@ -4610,7 +4610,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Tetris",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Tetris unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Tetris unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tetris/tetris.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Tetris/tetris.jpg",
     "tags": [
@@ -4646,7 +4646,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Raft wars 2",
     "category": "Shooter",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Raft wars 2 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Raft wars 2 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Raft-Wars-2/raftwars2.jpg",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Raft-Wars-2/raftwars2.jpg",
     "tags": [
@@ -4683,7 +4683,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Pong",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Pong unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Pong unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/cyber-pong.jpg",
     "banner": "thumbnails/cyber-pong.jpg",
     "tags": [
@@ -4719,7 +4719,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Pac Man",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Pac Man unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Pac Man unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Pac-Man/Pac-Man.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Pac-Man/Pac-Man.png",
     "tags": [
@@ -4756,7 +4756,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "sausage run",
     "category": "Platformer",
     "secondaryCategory": "Skill & Reflex",
-    "description": "Play sausage run unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play sausage run unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/ForkNSausage/ForkNSausage.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/ForkNSausage/ForkNSausage.png",
     "tags": [
@@ -4794,7 +4794,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Donkey Kong",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Donkey Kong unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Donkey Kong unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/donkey-kong.jpg",
     "banner": "thumbnails/donkey-kong.jpg",
     "tags": [
@@ -4832,7 +4832,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Google Baseball",
     "category": "Sports",
     "secondaryCategory": "2-Player Battle",
-    "description": "Play Google Baseball unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Google Baseball unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/google-baseball.jpg",
     "banner": "thumbnails/google-baseball.jpg",
     "tags": [
@@ -4870,7 +4870,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "EXTREME air hockey",
     "category": "Sports",
     "secondaryCategory": "2-Player Battle",
-    "description": "Play EXTREME air hockey unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play EXTREME air hockey unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "thumbnails/air-hockey.jpg",
     "banner": "thumbnails/air-hockey.jpg",
     "tags": [
@@ -4908,7 +4908,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Acid Bunny",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Acid Bunny unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Acid Bunny unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Acid-Bunny/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Acid-Bunny/thumb.png",
     "tags": [
@@ -4946,7 +4946,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Acid Bunny 2",
     "category": "Retro",
     "secondaryCategory": "Classic Arcade",
-    "description": "Play Acid Bunny 2 unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Acid Bunny 2 unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Acid-Bunny-2/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Acid-Bunny-2/thumb.png",
     "tags": [
@@ -4984,7 +4984,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Paper Plane",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Paper Plane unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Paper Plane unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papery-Planes/Papery-Planes.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Papery-Planes/Papery-Planes.png",
     "tags": [
@@ -5022,7 +5022,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Basket Random",
     "category": "Sports",
     "secondaryCategory": "2-Player Battle",
-    "description": "Play Basket Random unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Basket Random unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Basket-Random/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Basket-Random/thumb.png",
     "tags": [
@@ -5059,7 +5059,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "How to get FORTNITE!!!",
     "category": "Sandbox",
     "secondaryCategory": "Open World",
-    "description": "Play How to get FORTNITE!!! unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play How to get FORTNITE!!! unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/How-to-get-FORTNITE---/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/How-to-get-FORTNITE---/thumb.png",
     "tags": [
@@ -5097,7 +5097,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Roblox",
     "category": "Sandbox",
     "secondaryCategory": "Open World",
-    "description": "Play Roblox unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Roblox unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Roblox/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Roblox/thumb.png",
     "tags": [
@@ -5135,7 +5135,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "Random Stuff",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play Random Stuff unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play Random Stuff unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Random-Stuff/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Random-Stuff/thumb.png",
     "tags": [
@@ -5173,7 +5173,7 @@ export const TRIPPLE_POTATOES_GAMES: Game[] = [
     "title": "SUS",
     "category": "Casual",
     "secondaryCategory": "Potato Classics",
-    "description": "Play SUS unblocked on Owen Watermelon V3! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
+    "description": "Play SUS unblocked on opgames44! Fully playable, filter-free browser game directly from the TrippleThePotatoes collection.",
     "thumbnail": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/SUS/thumb.png",
     "banner": "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/SUS/thumb.png",
     "tags": [

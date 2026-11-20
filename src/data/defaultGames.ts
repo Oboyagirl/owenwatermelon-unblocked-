@@ -8,7 +8,7 @@ const CURATED_GAMES: Game[] = [
     title: "Spaceflight Simulator",
     description: "Build multi-stage rockets, manage staging and throttle, escape Earth's atmosphere, and navigate orbital trajectories to reach the Moon in this realistic physics space simulator!",
     category: "Simulation",
-    secondaryCategory: "Owen Watermelon OG’s",
+    secondaryCategory: "opgames44 OG’s",
     thumbnail: "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Spaceflight-Simulator/spaceflightsimulator.png",
     banner: "https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/Spaceflight-Simulator/spaceflightsimulator.png",
     mirrors: [
@@ -37,7 +37,7 @@ const CURATED_GAMES: Game[] = [
     title: "Diep.io",
     description: "Pilot your custom tank, destroy polygonal shapes to earn XP, upgrade 8 vital stats, and evolve through 45 levels of twin, sniper, destroyer, and machine gun classes!",
     category: "Action",
-    secondaryCategory: "Owen Watermelon OG’s",
+    secondaryCategory: "opgames44 OG’s",
     thumbnail: "thumbnails/diep-io.jpg",
     banner: "thumbnails/diep-io.jpg",
     mirrors: [
@@ -65,7 +65,7 @@ const CURATED_GAMES: Game[] = [
     title: "Agar.io",
     description: "The world-famous mass-eating battle royale! Control your cell, consume pellets, split to hunt other players, avoid spiky green viruses, and dominate the leaderboard!",
     category: "Action",
-    secondaryCategory: "Owen Watermelon OG’s",
+    secondaryCategory: "opgames44 OG’s",
     thumbnail: "thumbnails/agar-io.jpg",
     banner: "thumbnails/agar-io.jpg",
     mirrors: [
@@ -771,7 +771,7 @@ const CURATED_GAMES: Game[] = [
     tags: ["Physics", "Merge", "Watermelon", "Casual", "Suika"],
     rating: 4.9,
     plays: 48900,
-    author: "Owen Watermelon Studios",
+    author: "opgames44 Studios",
     featured: true,
     iframeSrc: "games/watermelon-merge.html",
     iframeCode: `<iframe id="plyIframe" class="ply-iframe" title="Watermelon Merge (Suika) — UBGHyper" allow="fullscreen; autoplay" allowfullscreen="" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-top-navigation-by-user-activation allow-popups" src="games/watermelon-merge.html"></iframe>`,
@@ -910,7 +910,7 @@ const CURATED_GAMES: Game[] = [
     tags: ["2 Player", "Sports", "Arcade", "Multiplayer"],
     rating: 4.7,
     plays: 18400,
-    author: "Owen Watermelon",
+    author: "opgames44",
     featured: false,
     iframeSrc: "games/pong.html",
     iframeCode: `<iframe id="plyIframe" class="ply-iframe" title="Cyber Pong (1P & 2P) — UBGHyper" allow="fullscreen; autoplay" allowfullscreen="" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-top-navigation-by-user-activation allow-popups" src="games/pong.html"></iframe>`,
@@ -1938,7 +1938,7 @@ export async function loadAllDefaultGames(): Promise<Game[]> {
         title: meta.title,
         description: meta.description,
         category: meta.category,
-        secondaryCategory: "Owen Watermelon OG’s",
+        secondaryCategory: "opgames44 OG’s",
         thumbnail: meta.thumbnail || "thumbnails/cyber-snake.jpg",
         banner: meta.thumbnail || "thumbnails/cyber-snake.jpg",
         mirrors: [
@@ -1954,7 +1954,7 @@ export async function loadAllDefaultGames(): Promise<Game[]> {
         iframeCode: `<iframe class="game-iframe" id="game-area" title="${meta.title}" src="${url}" allow="autoplay; fullscreen; focus-without-user-activation *; gamepad; keyboard-map *; accelerometer; gyroscope" allowfullscreen=""></iframe>`
       };
 
-      addGameCandidate(newGame, "Owen Watermelon OG’s");
+      addGameCandidate(newGame, "opgames44 OG’s");
     }
 
     return games;

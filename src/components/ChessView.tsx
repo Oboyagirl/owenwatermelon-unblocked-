@@ -925,7 +925,11 @@ export const ChessView: React.FC<ChessViewProps> = ({ activeTheme }) => {
           // Ignore stale pre-move snapshot while our optimistic move is in flight
           setOnlineMyColor(msg.myColor || 'spectator');
           setOnlinePlayers(msg.players || { w: null, b: null });
-          setOnlineRematchVotes(Array.isArray(msg.rematchVotes) ? msg.rematchVotes : []);
+          setOnlineRematchVotes(
+            Array.isArray(msg.rematchVotes)
+              ? msg.rematchVotes.filter((v): v is PieceColor => v === 'w' || v === 'b')
+              : []
+          );
           return;
         }
         pendingOnlineMoveRef.current = null;
@@ -947,7 +951,11 @@ export const ChessView: React.FC<ChessViewProps> = ({ activeTheme }) => {
       setOnlineRoomCode(msg.code);
       setOnlineMyColor(msg.myColor || 'spectator');
       setOnlinePlayers(msg.players || { w: null, b: null });
-      setOnlineRematchVotes(Array.isArray(msg.rematchVotes) ? msg.rematchVotes : []);
+      setOnlineRematchVotes(
+        Array.isArray(msg.rematchVotes)
+          ? msg.rematchVotes.filter((v): v is PieceColor => v === 'w' || v === 'b')
+          : []
+      );
       setGameState(nextState);
       setMoveHistory(nextHistory);
       if (boardChanged) {

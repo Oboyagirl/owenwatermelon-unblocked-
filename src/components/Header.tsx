@@ -17,11 +17,13 @@ import {
   Pause,
   SkipForward,
   Music,
-  MessageCircle
+  MessageCircle,
+  UserPlus
 } from 'lucide-react';
 import { ThemeConfig } from '../services/themeStore';
 import { useAuth } from '../context/AuthContext';
 import { useMusic } from '../context/MusicContext';
+import { useNotifications } from '../context/NotificationContext';
 import { AVATAR_PRESETS } from '../services/cloudSaveService';
 import { triggerPanic } from '../data/cloakPresets';
 
@@ -40,6 +42,7 @@ interface HeaderProps {
   onOpenCloakerModal?: () => void;
   onOpenAccountModal?: () => void;
   onOpenThemeModal?: () => void;
+  onOpenInviteModal?: () => void;
   onToggleChatBox?: () => void;
   isChatOpen?: boolean;
   onlineChatCount?: number;
@@ -61,6 +64,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenCloakerModal,
   onOpenAccountModal,
   onOpenThemeModal,
+  onOpenInviteModal,
   onToggleChatBox,
   isChatOpen,
   onlineChatCount = 0,
@@ -71,6 +75,7 @@ export const Header: React.FC<HeaderProps> = ({
   const isGithubPages = typeof window !== 'undefined' && Boolean(window.location?.hostname?.endsWith('github.io'));
   const { profile, isSignedIn, isAuthReady } = useAuth();
   const { currentTrack, isPlaying, togglePlay, nextTrack } = useMusic();
+  const { incomingInvites, outgoingInvites } = useNotifications();
   const currentAvatar = AVATAR_PRESETS.find(a => a.id === (profile?.avatarId || 'melon_classic')) || AVATAR_PRESETS[0];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -181,7 +186,7 @@ export const Header: React.FC<HeaderProps> = ({
           style={{ backgroundColor: activeTheme?.bgCard, borderColor }}
         >
           <Server className="w-3 h-3" style={{ color: accentColor }} />
-          <span>{isGithubPages ? 'GitHub Pages' : 'OwenV3 Server'}</span>
+          <span>{isGithubPages ? 'GitHub Pages' : 'opgames44 Server'}</span>
         </div>
 
         {/* Global Music Status Pill */}
@@ -232,6 +237,37 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
           )}
         </div>
+
+        {/* Global Game Invites Modal Trigger */}
+        {onOpenInviteModal && (
+          <button
+            onClick={onOpenInviteModal}
+            className="p-2 rounded-xl border transition-all cursor-pointer flex items-center gap-1.5 text-xs font-bold relative"
+            style={{
+              backgroundColor:
+                incomingInvites.length > 0 || outgoingInvites.length > 0
+                  ? (activeTheme?.accentBadge || 'rgba(56, 189, 248, 0.2)')
+                  : 'rgba(255, 255, 255, 0.05)',
+              borderColor: incomingInvites.length > 0 ? '#38bdf8' : borderColor,
+              color: incomingInvites.length > 0 ? '#38bdf8' : 'rgb(203, 213, 225)'
+            }}
+            title="Game Invites — Challenge friends to Chess or any 72 multiplayer minigame"
+          >
+            <UserPlus className="w-4 h-4" />
+            <span className="hidden lg:inline">
+              {incomingInvites.length > 0
+                ? `Invites (${incomingInvites.length})`
+                : outgoingInvites.length > 0
+                ? `Invited (${outgoingInvites.length})`
+                : 'Invites'}
+            </span>
+            {incomingInvites.length > 0 && (
+              <span className="px-1.5 py-0.2 rounded-full bg-sky-400 text-black text-[10px] font-extrabold leading-tight">
+                {incomingInvites.length}
+              </span>
+            )}
+          </button>
+        )}
 
         {/* Firebase Friends Chatbox Toggle */}
         {onToggleChatBox && (

@@ -213,7 +213,7 @@ export const MusicView: React.FC<MusicViewProps> = ({ activeTheme }) => {
                 }}
               >
                 <span>{activeTheme?.emoji || '🍉'}</span>
-                <span>OwenWatermelonV3 Music Studio</span>
+                <span>opgames44 Music Studio</span>
               </span>
               <span className="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[11px] font-mono">
                 🎧 Real MP3 Music

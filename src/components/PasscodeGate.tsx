@@ -65,7 +65,7 @@ export const PasscodeGate: React.FC<PasscodeGateProps> = ({
 
         {/* Title & Description */}
         <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
-          Owen Watermelon <span style={{ color: activeTheme.accent }}>V3</span>
+          opgames<span style={{ color: activeTheme.accent }}>44</span>
         </h1>
         <p className="text-xs sm:text-sm text-slate-300 mt-2 max-w-xs leading-relaxed">
           Access is password protected. Enter your passcode to unlock the arcade catalog.

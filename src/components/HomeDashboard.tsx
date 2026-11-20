@@ -83,7 +83,7 @@ export const HomeDashboard: React.FC<HomeDashboardProps> = ({
             title="Click to open Themes & Color Studio"
           >
             <span>{activeTheme?.emoji || '🍉'}</span>
-            <span>OwenWatermelonV3 OS</span>
+            <span>opgames44 OS</span>
             <span className="text-[10px] opacity-80">· {activeTheme?.name || 'Theme'}</span>
             <Palette className="w-3.5 h-3.5 ml-1" />
           </button>

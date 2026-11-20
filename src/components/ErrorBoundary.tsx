@@ -45,7 +45,7 @@ export class ErrorBoundary extends Component<Props, State> {
             </div>
 
             <h1 className="text-xl font-bold text-white">
-              Owen Watermelon <span className="text-[#ff2d55]">V3</span>
+              opgames<span className="text-[#ff2d55]">44</span>
             </h1>
 
             <p className="text-xs text-slate-400">

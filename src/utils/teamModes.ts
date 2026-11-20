@@ -1,14 +1,17 @@
 import {
   ARCADE_BOTS,
-  ArcadeBot,
-  ArcadeGameType,
-  ArcadePlayer,
-  ArcadeState,
   applyArcadeAction,
   createInitialArcadeState,
   getArcadeBotById
-} from './arcadeEngines';
-import { CHESS_BOTS, ChessBot, PieceColor, getBotById } from './chessEngine';
+} from './arcadeEngines.ts';
+import type {
+  ArcadeBot,
+  ArcadeGameType,
+  ArcadePlayer,
+  ArcadeState
+} from './arcadeEngines.ts';
+import { CHESS_BOTS, getBotById } from './chessEngine.ts';
+import type { ChessBot, PieceColor } from './chessEngine.ts';
 
 export type TeamMode = '1v1' | '2v2' | '3v3';
 export type TeamSeatKind = 'open' | 'human' | 'bot';

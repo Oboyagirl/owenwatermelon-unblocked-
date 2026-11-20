@@ -17,6 +17,7 @@ import { NotificationToasts } from './components/NotificationToasts';
 import { NotificationProvider } from './context/NotificationContext';
 import { CallProvider } from './context/CallContext';
 import { CallOverlay } from './components/CallOverlay';
+import { InviteModal } from './components/InviteModal';
 import { useGamesStore } from './services/gamesStore';
 import { useSiteSettingsStore } from './services/siteSettingsStore';
 import { useThemeStore } from './services/themeStore';
@@ -44,8 +45,8 @@ export function isOwenWatermelonOG(game: Game): boolean {
   const tags = Array.isArray(game.tags) ? game.tags.map(t => String(t).toLowerCase()) : [];
   const sec = (game.secondaryCategory || '').toLowerCase();
 
-  if (sec.includes('owen') && sec.includes('og')) return true;
-  if (tags.some(t => t.includes('owen') && t.includes('og')) || tags.includes('og')) return true;
+  if ((sec.includes('opgames44') || sec.includes('owen')) && sec.includes('og')) return true;
+  if (tags.some(t => (t.includes('opgames44') || t.includes('owen')) && t.includes('og')) || tags.includes('og')) return true;
 
   if (id === 'soccer-2026' || id === 'soccer-real') return true;
   if (id.includes('stickman-climb') || title.includes('stickman climb')) return true;
@@ -131,7 +132,7 @@ const APP_CATEGORIES = [
   'StrongDog XP',
   '2 Player Games',
   'Sawyer For Sawyer',
-  'Owen Watermelon OG’s',
+  'opgames44 OG’s',
   'Favorites',
   'Potato Classics',
   'Sports',
@@ -217,6 +218,7 @@ export default function App() {
   const [visibleCount, setVisibleCount] = useState(48);
   const [isThemeModalOpen, setIsThemeModalOpen] = useState(false);
   const [isAccountModalOpen, setIsAccountModalOpen] = useState(false);
+  const [isInviteModalOpen, setIsInviteModalOpen] = useState(false);
   const [isCloakerOpen, setIsCloakerOpen] = useState(false);
   const [isChatPinnedOpen, setIsChatPinnedOpen] = useState<boolean>(() => {
     try {
@@ -352,17 +354,21 @@ export default function App() {
       if (tag === 'input' || tag === 'textarea' || tag === 'select' || activeEl?.isContentEditable) {
         return;
       }
+      if (isInviteModalOpen) {
+        setIsInviteModalOpen(false);
+        return;
+      }
       if (isChatOpen && !isChatPinnedOpen) {
         setIsChatOpen(false);
         return;
       }
-      if (!selectedGame && !isThemeModalOpen && !isAccountModalOpen && !isCloakerOpen) {
+      if (!selectedGame && !isThemeModalOpen && !isAccountModalOpen && !isCloakerOpen && !isInviteModalOpen) {
         triggerPanic();
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [selectedGame, isThemeModalOpen, isAccountModalOpen, isCloakerOpen, isChatOpen, isChatPinnedOpen]);
+  }, [selectedGame, isThemeModalOpen, isAccountModalOpen, isCloakerOpen, isInviteModalOpen, isChatOpen, isChatPinnedOpen]);
 
   // Tab Switching & Mutation
   const handleSelectSpace = (space: SpaceType) => {
@@ -513,7 +519,7 @@ export default function App() {
       if (catLower === 'trending') return isTrendingGame(g);
       if (catLower.includes('2 player') || catLower === '2 player games') return isTwoPlayerGame(g);
       if (catLower.includes('sawyer')) return isSawyerGame(g);
-      if (catLower.includes('owen') && catLower.includes('og')) return isOwenWatermelonOG(g);
+      if ((catLower.includes('opgames44') || catLower.includes('owen')) && catLower.includes('og')) return isOwenWatermelonOG(g);
       if (catLower === 'strongdog xp') {
         return (
           mainCatLower === 'strongdog xp' ||
@@ -958,7 +964,7 @@ export default function App() {
         </Suspense>
       )}
 
-      {/* OwenWatermelon Left Sidebar */}
+      {/* opgames44 Left Sidebar */}
       <Sidebar
         activeSpace={activeSpace}
         onSelectSpace={handleSelectSpace}
@@ -973,6 +979,7 @@ export default function App() {
         onToggleCollapse={toggleSidebarCollapse}
         onOpenAccountModal={() => setIsAccountModalOpen(true)}
         onOpenThemeModal={() => setIsThemeModalOpen(true)}
+        onOpenInviteModal={() => setIsInviteModalOpen(true)}
         onLockSite={handleLockSite}
         activeTheme={activeTheme}
         totalGames={games.length}
@@ -1003,6 +1010,7 @@ export default function App() {
           onOpenCloakerModal={() => setIsCloakerOpen(true)}
           onOpenAccountModal={() => setIsAccountModalOpen(true)}
           onOpenThemeModal={() => setIsThemeModalOpen(true)}
+          onOpenInviteModal={() => setIsInviteModalOpen(true)}
           onToggleChatBox={() => setIsChatOpen(prev => !prev)}
           isChatOpen={isChatOpen}
           onlineChatCount={onlineChatCount}
@@ -1120,6 +1128,14 @@ export default function App() {
 
       {/* Global Peer-to-Peer WebRTC Voice & Video Call Overlay */}
       <CallOverlay activeTheme={activeTheme} />
+
+      {/* Global Game Invites Modal */}
+      <InviteModal
+        isOpen={isInviteModalOpen}
+        onClose={() => setIsInviteModalOpen(false)}
+        activeTheme={activeTheme}
+        onOpenAccountModal={() => setIsAccountModalOpen(true)}
+      />
 
       {/* Sign-In Required Modal when trying to play a game while signed out */}
       {!isSignedIn && isGameAuthModalOpen && (

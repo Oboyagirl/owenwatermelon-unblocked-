@@ -15,11 +15,13 @@ import {
   Home,
   Crown,
   Swords,
-  Trophy
+  Trophy,
+  UserPlus
 } from 'lucide-react';
 import { ThemeConfig } from '../services/themeStore';
 import { triggerPanic } from '../data/cloakPresets';
 import { useAuth } from '../context/AuthContext';
+import { useNotifications } from '../context/NotificationContext';
 import { AVATAR_PRESETS } from '../services/cloudSaveService';
 
 export interface TabItem {
@@ -44,6 +46,7 @@ interface OwenSidebarProps {
   onToggleCollapse: () => void;
   onOpenAccountModal: () => void;
   onOpenThemeModal: () => void;
+  onOpenInviteModal: () => void;
   onLockSite?: () => void;
   activeTheme: ThemeConfig;
   totalGames: number;
@@ -63,11 +66,13 @@ export const Sidebar: React.FC<OwenSidebarProps> = ({
   onToggleCollapse,
   onOpenAccountModal,
   onOpenThemeModal,
+  onOpenInviteModal,
   onLockSite,
   activeTheme,
   totalGames
 }) => {
   const { profile, isSignedIn, isAuthReady } = useAuth();
+  const { incomingInvites, outgoingInvites } = useNotifications();
   const currentAvatar = AVATAR_PRESETS.find(a => a.id === (profile?.avatarId || 'melon_classic')) || AVATAR_PRESETS[0];
 
   const NAV_ITEMS = [
@@ -92,7 +97,7 @@ export const Sidebar: React.FC<OwenSidebarProps> = ({
         borderColor: activeTheme.border
       }}
     >
-      {/* Top OwenWatermelonV3 Brand Area */}
+      {/* Top opgames44 Brand Area */}
       <div 
         className="h-16 px-3.5 flex items-center justify-between border-b shrink-0"
         style={{ borderColor: activeTheme.border }}
@@ -100,7 +105,7 @@ export const Sidebar: React.FC<OwenSidebarProps> = ({
         <button
           onClick={() => onSelectSpace('home')}
           className="flex items-center gap-3 cursor-pointer text-left overflow-hidden group"
-          title="OwenWatermelonV3 OS"
+          title="opgames44 OS"
         >
           <div 
             className="w-10 h-10 rounded-2xl flex items-center justify-center text-xl shrink-0 shadow-lg group-hover:scale-105 transition-transform border"
@@ -115,8 +120,8 @@ export const Sidebar: React.FC<OwenSidebarProps> = ({
           {!isCollapsed && (
             <div className="flex flex-col truncate">
               <span className="font-extrabold text-sm text-white tracking-tight leading-tight flex items-center gap-1 truncate">
-                <span>OwenWatermelon</span>
-                <span className="font-mono text-xs" style={{ color: activeTheme.accent }}>V3</span>
+                <span>opgames</span>
+                <span className="font-mono text-xs" style={{ color: activeTheme.accent }}>44</span>
               </span>
               <span className="text-[10px] font-mono text-slate-400 truncate">
                 {totalGames} unblocked games
@@ -268,6 +273,43 @@ export const Sidebar: React.FC<OwenSidebarProps> = ({
         className="p-2.5 border-t flex flex-col gap-1.5 shrink-0"
         style={{ borderColor: activeTheme.border, backgroundColor: activeTheme.bgSecondary }}
       >
+        {/* Game Invites Button */}
+        <button
+          onClick={onOpenInviteModal}
+          className="flex items-center justify-between gap-2 px-2.5 py-2 rounded-xl text-xs font-bold text-slate-200 hover:text-white hover:bg-white/5 border transition-all cursor-pointer"
+          style={{
+            backgroundColor: incomingInvites.length > 0 ? activeTheme.accentBadge : undefined,
+            borderColor: incomingInvites.length > 0 ? activeTheme.borderActive : 'transparent'
+          }}
+          title="Game Invites — Challenge friends to Chess or any minigame"
+        >
+          <div className="flex items-center gap-2.5 truncate">
+            <div
+              className="w-6 h-6 rounded-lg flex items-center justify-center text-xs shrink-0 border"
+              style={{
+                backgroundColor: incomingInvites.length > 0 ? activeTheme.accentBadge : 'rgba(56, 189, 248, 0.16)',
+                borderColor: incomingInvites.length > 0 ? activeTheme.borderActive : 'rgba(56, 189, 248, 0.35)'
+              }}
+            >
+              <UserPlus className="w-3.5 h-3.5" style={{ color: incomingInvites.length > 0 ? activeTheme.accent : '#38bdf8' }} />
+            </div>
+            {!isCollapsed && (
+              <span className="truncate">
+                {incomingInvites.length > 0
+                  ? `Invites (${incomingInvites.length})`
+                  : outgoingInvites.length > 0
+                  ? `Game Invites (${outgoingInvites.length})`
+                  : 'Game Invites'}
+              </span>
+            )}
+          </div>
+          {!isCollapsed && incomingInvites.length > 0 && (
+            <span className="px-1.5 py-0.5 rounded-full bg-sky-400 text-black text-[10px] font-extrabold leading-none">
+              {incomingInvites.length}
+            </span>
+          )}
+        </button>
+
         {/* Themes Button */}
         <button
           onClick={onOpenThemeModal}

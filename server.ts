@@ -859,7 +859,7 @@ async function startServer() {
     try {
       const lrclibUrl = `https://lrclib.net/api/get?artist_name=${encodeURIComponent(artist)}&track_name=${encodeURIComponent(cleanTitle)}`;
       const remoteRes = await fetch(lrclibUrl, {
-        headers: { 'User-Agent': 'OwenWatermelonV3/1.0 (https://ais-dev)' }
+        headers: { 'User-Agent': 'opgames44/1.0 (https://ais-dev)' }
       });
       if (remoteRes.ok) {
         const data = await remoteRes.json();
@@ -876,7 +876,7 @@ async function startServer() {
     try {
       const searchUrl = `https://lrclib.net/api/search?track_name=${encodeURIComponent(cleanTitle)}&artist_name=${encodeURIComponent(artist)}`;
       const searchRes = await fetch(searchUrl, {
-        headers: { 'User-Agent': 'OwenWatermelonV3/1.0 (https://ais-dev)' }
+        headers: { 'User-Agent': 'opgames44/1.0 (https://ais-dev)' }
       });
       if (searchRes.ok) {
         const results = await searchRes.json();
@@ -898,7 +898,7 @@ async function startServer() {
     try {
       const querySearchUrl = `https://lrclib.net/api/search?q=${encodeURIComponent(`${cleanTitle} ${artist}`)}`;
       const qRes = await fetch(querySearchUrl, {
-        headers: { 'User-Agent': 'OwenWatermelonV3/1.0 (https://ais-dev)' }
+        headers: { 'User-Agent': 'opgames44/1.0 (https://ais-dev)' }
       });
       if (qRes.ok) {
         const results = await qRes.json();
@@ -1030,7 +1030,7 @@ Example format:
   }
 
   httpServer.listen(PORT, chosenHost, () => {
-    console.log(`Owen Watermelon V3 Server running on http://${chosenHost}:${PORT}`);
+    console.log(`opgames44 Server running on http://${chosenHost}:${PORT}`);
   });
 }
 

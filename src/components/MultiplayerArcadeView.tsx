@@ -382,7 +382,11 @@ export const MultiplayerArcadeView: React.FC<MultiplayerArcadeViewProps> = ({ ac
           // Ignore stale snapshot before our optimistic write lands
           setMySeat(msg.mySeat || 'spectator');
           setPlayers(msg.players || { p1: null, p2: null });
-          setRematchVotes(Array.isArray(msg.rematchVotes) ? msg.rematchVotes : []);
+          setRematchVotes(
+            Array.isArray(msg.rematchVotes)
+              ? msg.rematchVotes.filter((v): v is ArcadePlayer => v === 'p1' || v === 'p2')
+              : []
+          );
           return;
         }
         pendingMoveRef.current = null;
@@ -406,7 +410,11 @@ export const MultiplayerArcadeView: React.FC<MultiplayerArcadeViewProps> = ({ ac
       } catch {}
       setMySeat(msg.mySeat || 'spectator');
       setPlayers(msg.players || { p1: null, p2: null });
-      setRematchVotes(Array.isArray(msg.rematchVotes) ? msg.rematchVotes : []);
+      setRematchVotes(
+        Array.isArray(msg.rematchVotes)
+          ? msg.rematchVotes.filter((v): v is ArcadePlayer => v === 'p1' || v === 'p2')
+          : []
+      );
       setGameState(msg.state);
       setMoves(nextMoves);
       setResignedWinner(msg.resignedWinner || null);
