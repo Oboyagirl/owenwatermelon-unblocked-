@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Arcade Game</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      touch-action: manipulation;
+    }
+    #player-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    ruffle-player {
+      width: 100% !important;
+      height: 100% !important;
+      display: block !important;
+    }
+    #loading-badge {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: #050507;
+      color: #e2e8f0;
+      z-index: 20;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .spinner {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      border: 3px solid rgba(255, 255, 255, 0.14);
+      border-top-color: #10b981;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    #touch-toggle {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index: 30;
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.22);
+      background: rgba(15, 23, 42, 0.78);
+      color: #e2e8f0;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: pointer;
+      backdrop-filter: blur(6px);
+    }
+    #touch-pad {
+      display: none;
+      position: fixed;
+      inset: auto 14px 46px 14px;
+      z-index: 29;
+      justify-content: space-between;
+      align-items: flex-end;
+      pointer-events: none;
+    }
+    #touch-pad.visible {
+      display: flex;
+    }
+    .pad-group {
+      display: flex;
+      gap: 8px;
+      pointer-events: auto;
+    }
+    .dpad-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 44px);
+      grid-template-rows: repeat(2, 44px);
+      gap: 5px;
+      pointer-events: auto;
+    }
+    .vkey {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.28);
+      background: rgba(15, 23, 42, 0.72);
+      color: #fff;
+      font-size: 15px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: none;
+    }
+    .vkey:active {
+      background: rgba(16, 185, 129, 0.55);
+    }
+    .vkey-wide {
+      width: 78px;
+      font-size: 12px;
+    }
+    /* Suppress Ruffle dialogs & panic popups */
+    ruffle-player::part(message-overlay),
+    #message-overlay,
+    .message-overlay,
+    #panic,
+    .panic,
+    [id*="panic"],
+    [class*="panic"],
+    [id*="modal"],
+    [class*="modal"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+  </style>
+
+  <script>
+    const localRuffleBase = new URL('../ruffle/', window.location.href).href;
+    const cdnRuffleBase = "https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle/";
+
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      letterbox: "on",
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      backgroundColor: "#000000",
+      allowScriptAccess: true,
+      warnOnUnsupportedContent: false,
+      logLevel: "error",
+      showSwfDownload: false,
+      splashScreen: false,
+      openUrlMode: "confirm",
+      quality: "high",
+      maxExecutionDuration: 60,
+      playerVersion: 32,
+      forceScale: true,
+      wmode: "opaque",
+      preferredRenderer: "webgl",
+      publicPath: localRuffleBase
+    };
+
+    function loadCdnRuffleFallback() {
+      window.RufflePlayer.config.publicPath = cdnRuffleBase;
+      const s = document.createElement("script");
+      s.src = cdnRuffleBase + "ruffle.js";
+      document.head.appendChild(s);
+    }
+  </script>
+  <script src="../ruffle/ruffle.js" onerror="loadCdnRuffleFallback()"></script>
+</head>
+<body>
+  <div id="player-container">
+    <div id="loading-badge">
+      <div class="spinner"></div>
+      <div id="loading-text">Loading Flash Player...</div>
+    </div>
+  </div>
+
+  <button id="touch-toggle" type="button">Keys</button>
+  <div id="touch-pad" aria-hidden="true">
+    <div class="dpad-grid">
+      <div></div>
+      <button class="vkey" type="button" data-key="ArrowUp" data-code="ArrowUp" data-kc="38">▲</button>
+      <div></div>
+      <button class="vkey" type="button" data-key="ArrowLeft" data-code="ArrowLeft" data-kc="37">◀</button>
+      <button class="vkey" type="button" data-key="ArrowDown" data-code="ArrowDown" data-kc="40">▼</button>
+      <button class="vkey" type="button" data-key="ArrowRight" data-code="ArrowRight" data-kc="39">▶</button>
+    </div>
+    <div class="pad-group">
+      <button class="vkey vkey-wide" type="button" data-key=" " data-code="Space" data-kc="32">SPACE</button>
+    </div>
+  </div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const rawSwf = params.get('swf');
+    const altSwf = params.get('alt');
+    const title = params.get('title') || 'Arcade Game';
+    document.title = title;
+
+    const loadingBadge = document.getElementById('loading-badge');
+    const loadingText = document.getElementById('loading-text');
+    const touchToggle = document.getElementById('touch-toggle');
+    const touchPad = document.getElementById('touch-pad');
+
+    let playerInstance = null;
+    let suppressInterval = null;
+
+    function hideOverlay() {
+      if (loadingBadge) loadingBadge.style.display = 'none';
+    }
+
+    const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    if (!isTouchDevice) {
+      touchToggle.style.opacity = '0.55';
+    }
+    touchToggle.addEventListener('click', () => {
+      touchPad.classList.toggle('visible');
+      if (playerInstance) playerInstance.focus();
+    });
+
+    function dispatchVirtualKey(type, key, code, keyCode) {
+      const target = playerInstance || document;
+      try {
+        if (playerInstance) playerInstance.focus();
+        const ev = new KeyboardEvent(type, {
+          key: key,
+          code: code,
+          keyCode: keyCode,
+          which: keyCode,
+          bubbles: true,
+          cancelable: true
+        });
+        target.dispatchEvent(ev);
+        window.dispatchEvent(ev);
+      } catch {}
+    }
+
+    document.querySelectorAll('.vkey[data-key]').forEach((btn) => {
+      const key = btn.getAttribute('data-key');
+      const code = btn.getAttribute('data-code');
+      const kc = Number(btn.getAttribute('data-kc'));
+      const press = (e) => { e.preventDefault(); dispatchVirtualKey('keydown', key, code, kc); };
+      const release = (e) => { e.preventDefault(); dispatchVirtualKey('keyup', key, code, kc); };
+      btn.addEventListener('touchstart', press, { passive: false });
+      btn.addEventListener('touchend', release, { passive: false });
+      btn.addEventListener('mousedown', press);
+      btn.addEventListener('mouseup', release);
+      btn.addEventListener('mouseleave', release);
+    });
+
+    function buildSwfCandidates(primary, alt) {
+      const list = [];
+      const add = (u) => { if (u && !list.includes(u)) list.push(u); };
+      const isStaticHost = window.location.hostname.endsWith('github.io') ||
+                           window.location.protocol === 'file:' ||
+                           (!window.location.port && window.location.hostname !== 'localhost');
+
+      const expandMirrors = (url) => {
+        if (!url) return [];
+        const out = [];
+        // Expand UBGHyper / jsDelivr / raw.githubusercontent equivalents
+        if (url.includes('ubghyper.github.io/GameList.github.io/')) {
+          const tail = url.split('ubghyper.github.io/GameList.github.io/')[1];
+          out.push('https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/' + tail);
+          out.push('https://raw.githubusercontent.com/UBGHyper/GameList.github.io/main/' + tail);
+          out.push(url);
+        } else if (url.includes('cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/')) {
+          const tail = url.split('cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/')[1];
+          out.push(url);
+          out.push('https://raw.githubusercontent.com/UBGHyper/GameList.github.io/main/' + tail);
+          out.push('https://ubghyper.github.io/GameList.github.io/' + tail);
+        } else if (url.includes('raw.githubusercontent.com/UBGHyper/GameList.github.io/main/')) {
+          const tail = url.split('raw.githubusercontent.com/UBGHyper/GameList.github.io/main/')[1];
+          out.push(url);
+          out.push('https://cdn.jsdelivr.net/gh/UBGHyper/GameList.github.io@main/' + tail);
+          out.push('https://ubghyper.github.io/GameList.github.io/' + tail);
+        } else {
+          out.push(url);
+        }
+        return out;
+      };
+
+      const expanded = [...expandMirrors(primary), ...expandMirrors(alt)];
+      for (const u of expanded) {
+        const isCorsFriendly = u.includes('cdn.jsdelivr.net') || u.includes('raw.githubusercontent.com') || !u.startsWith('http');
+        if (!isStaticHost && u.startsWith('http') && !u.startsWith(window.location.origin)) {
+          const proxied = '/api/swf?url=' + encodeURIComponent(u);
+          if (u.includes('ubghyper.github.io')) {
+            add(proxied);
+            add(u);
+          } else if (isCorsFriendly) {
+            add(u);
+            add(proxied);
+          } else {
+            add(proxied);
+            add(u);
+          }
+        } else {
+          add(u);
+        }
+      }
+      return list;
+    }
+
+    if (rawSwf) {
+      loadingText.textContent = 'Loading ' + title + '...';
+
+      function startPlayer() {
+        if (!window.RufflePlayer || typeof window.RufflePlayer.newest !== 'function') {
+          setTimeout(startPlayer, 100);
+          return;
+        }
+
+        try {
+          const ruffle = window.RufflePlayer.newest();
+          playerInstance = ruffle.createPlayer();
+          const container = document.getElementById("player-container");
+          container.appendChild(playerInstance);
+
+          playerInstance.addEventListener("loadedmetadata", hideOverlay);
+          playerInstance.addEventListener("loadeddata", hideOverlay);
+
+          let swfBase = "";
+          if (rawSwf.startsWith('http://') || rawSwf.startsWith('https://')) {
+            swfBase = rawSwf.substring(0, rawSwf.lastIndexOf('/') + 1);
+          }
+
+          setTimeout(hideOverlay, 7000);
+
+          const candidates = buildSwfCandidates(rawSwf, altSwf);
+          let attempt = 0;
+
+          function tryNext() {
+            if (attempt >= candidates.length) {
+              hideOverlay();
+              return;
+            }
+            const candidate = candidates[attempt++];
+            playerInstance.load({
+              url: candidate,
+              base: swfBase,
+              parameters: "",
+              autoplay: "auto",
+              backgroundColor: "#000000"
+            }).then(() => {
+              setTimeout(hideOverlay, 150);
+            }).catch(() => {
+              tryNext();
+            });
+          }
+
+          tryNext();
+
+          suppressInterval = setInterval(() => {
+            if (playerInstance && playerInstance.shadowRoot) {
+              const modal = playerInstance.shadowRoot.querySelector('#message-overlay') ||
+                            playerInstance.shadowRoot.querySelector('.message-overlay') ||
+                            playerInstance.shadowRoot.querySelector('#panic') ||
+                            playerInstance.shadowRoot.querySelector('.panic');
+              if (modal) modal.remove();
+            }
+          }, 400);
+
+          window.addEventListener('beforeunload', () => {
+            if (suppressInterval) clearInterval(suppressInterval);
+          });
+        } catch (e) {
+          hideOverlay();
+        }
+      }
+
+      if (document.readyState === "loading") {
+        window.addEventListener("DOMContentLoaded", startPlayer);
+      } else {
+        startPlayer();
+      }
+    } else {
+      hideOverlay();
+    }
+  </script>
+</body>
+</html>

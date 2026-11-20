@@ -1,0 +1,20 @@
+node_modules/
+build/
+dist/
+docs/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+.dev.pid
+.dev.env.json
+*.tar.gz
+*.zip
+
+# Audio media files (380+ MP3s ~1GB) - prevent GitHub API commit timeouts; player streams from archive.org fallbacks
+public/music/*.mp3
+*.mp3
+
+# Obsolete build directories
+assets/

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color: #020813;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Owen Watermelon V3</title>
+    <meta name="description" content="Unblocked games website template with built-in iframe games catalog, tab cloaker, music studio, and customizable games JSON." />
+    <meta property="og:title" content="Owen Watermelon V3" />
+    <meta property="og:description" content="Unblocked games website template with built-in iframe games catalog, tab cloaker, music studio, and customizable games JSON." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+    <link rel="dns-prefetch" href="https://raw.githubusercontent.com">
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      html, body {
+        background-color: #020813 !important;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+      }
+      @keyframes melonPulse {
+        0%, 100% { transform: scale(1); opacity: 0.85; filter: drop-shadow(0 0 10px rgba(16,185,129,0.3)); }
+        50% { transform: scale(1.08); opacity: 1; filter: drop-shadow(0 0 25px rgba(16,185,129,0.6)); }
+      }
+      @keyframes barLoad {
+        0% { transform: translateX(-100%); }
+        50% { transform: translateX(0%); }
+        100% { transform: translateX(100%); }
+      }
+    </style>
+  </head>
+  <body class="bg-[#020813] text-white min-h-screen" style="background-color: #020813; color: #ffffff; margin: 0; min-height: 100vh;">
+    <div id="root">
+      <div id="initial-preloader" style="min-height: 100vh; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #020813; color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; text-align: center; padding: 20px; box-sizing: border-box;">
+        <div style="font-size: 56px; margin-bottom: 16px; animation: melonPulse 1.4s infinite ease-in-out; display: inline-block;">🍉</div>
+        <h1 style="font-size: 22px; font-weight: 900; margin: 0 0 6px 0; color: #ffffff; letter-spacing: -0.02em;">
+          Owen Watermelon <span style="color: #10b981;">V3</span>
+        </h1>
+        <p style="font-size: 13px; color: #94a3b8; margin: 0 0 20px 0; max-width: 300px;">
+          Unblocked Games Arcade & Music
+        </p>
+        <div style="width: 180px; height: 4px; background: rgba(255,255,255,0.08); border-radius: 99px; overflow: hidden; position: relative;">
+          <div style="position: absolute; top: 0; left: 0; bottom: 0; width: 60%; background: linear-gradient(90deg, #10b981, #34d399); border-radius: 99px; animation: barLoad 1.2s infinite ease-in-out;"></div>
+        </div>
+        <span id="preloader-status" style="font-size: 11px; color: #64748b; margin-top: 12px; font-family: monospace;">Loading catalog...</span>
+        <div id="preloader-troubleshoot" style="display: none; margin-top: 16px;">
+          <p style="font-size: 12px; color: #f59e0b; margin: 0 0 10px 0;">Loading taking longer than usual?</p>
+          <button onclick="try { sessionStorage.removeItem('vite_preload_reloaded'); sessionStorage.removeItem('owen_asset_reload_ts'); if ('caches' in window) { caches.keys().then(function(names){ names.forEach(function(n){ caches.delete(n); }); }); } if (navigator.serviceWorker) { navigator.serviceWorker.getRegistrations().then(function(regs){ regs.forEach(function(r){ r.unregister(); }); }); } } catch(e){} window.location.reload();" style="padding: 8px 16px; background-color: #10b981; color: #042f1f; font-weight: 700; font-size: 12px; border-radius: 10px; border: none; cursor: pointer; box-shadow: 0 4px 15px rgba(16,185,129,0.3);">
+            Reset Cache & Reload
+          </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function() {
+        // Show troubleshooting button if React takes longer than 5s to mount
+        var timer = setTimeout(function() {
+          var ts = document.getElementById('preloader-troubleshoot');
+          if (ts) ts.style.display = 'block';
+        }, 5000);
+
+        function clearAssetCachesAndReloadOnce() {
+          try {
+            var now = Date.now();
+            var last = Number(sessionStorage.getItem('owen_asset_reload_ts') || '0');
+            if (last && now - last < 15000) return false;
+            sessionStorage.setItem('owen_asset_reload_ts', String(now));
+            if ('caches' in window) {
+              caches.keys().then(function(names) {
+                names.forEach(function(n) { caches.delete(n); });
+              });
+            }
+            window.location.reload();
+            return true;
+          } catch (err) {
+            return false;
+          }
+        }
+
+        function showError(msg) {
+          clearTimeout(timer);
+          var status = document.getElementById('preloader-status');
+          var ts = document.getElementById('preloader-troubleshoot');
+          if (status) {
+            status.style.color = '#f87171';
+            status.innerText = msg;
+          }
+          if (ts) ts.style.display = 'block';
+        }
+
+        window.addEventListener('error', function(e) {
+          var target = e && e.target;
+          if (target && target.tagName) {
+            if (target.tagName === 'SCRIPT') {
+              var src = target.src || '';
+              if (src.indexOf('/assets/') !== -1 && clearAssetCachesAndReloadOnce()) {
+                return;
+              }
+              showError('Failed to load script: ' + (src || 'unknown'));
+            }
+            return;
+          }
+          showError('Error: ' + ((e && e.message) || 'Script failed to execute'));
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(e) {
+          var msg = (e.reason && (e.reason.message || e.reason)) || 'Promise failed';
+          if (String(msg).indexOf('Failed to fetch dynamically imported module') !== -1 ||
+              String(msg).indexOf('Importing a module script failed') !== -1) {
+            if (clearAssetCachesAndReloadOnce()) return;
+          }
+          showError('Async error: ' + msg);
+        });
+
+        window.addEventListener('vite:preloadError', function(e) {
+          if (e && e.preventDefault) e.preventDefault();
+          try {
+            if (!sessionStorage.getItem('vite_preload_reloaded')) {
+              sessionStorage.setItem('vite_preload_reloaded', '1');
+              window.location.reload();
+            }
+          } catch (err) {}
+        });
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
